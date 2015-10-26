@@ -12,18 +12,18 @@ There is only one exported function in the package called `QPX`. Using this func
 ```S
 res <- QPX(apikey = "yourapikey", origin = "PSA", destination = "LON", date = Sys.Date() + 1)
 ```
-this call will return the flights from Pisa to London for tomorrow
+this call will return the flights from Pisa to London for tomorrow in a R data.frame
 
 ## API key
-In order to use this package you need to obtain an API key. You can find a comprhensive guide on how to do this [HERE](https://developers.google.com/qpx-express/v1/prereqs).
+In order to use this package you need to obtain an API key. You can find a comprehensive guide on how to do this [HERE](https://developers.google.com/qpx-express/v1/prereqs).
 The main steps are:
 
 1. If you don't have one, get a Google account
 2. Go to the [Google Developers Console](https://console.developers.google.com/project)
-3. Create a New Project and give it the name you liek the most
+3. Create a New Project and give it the name you like the most
 4. On the sidebar menu click on APIs & Auth -> APIs
-5. In the search box digit QPX and the click on the resulting line (QPX Express Airfare API)
-6. Click on the blue button Enable API
+5. In the search box digit QPX and then click on the result (QPX Express Airfare API)
+6. Click on the blue button: 'Enable API'
 7. In the sidebar menu select Credentials
 8. Click on Add credentials and then choose API key -> server key
 9. Create the key
