@@ -7,4 +7,5 @@ Author: Lorenzo Rossi
 Imports: dplyr, httr, jsonlite
 Maintainer: Lorenzo Rossi <lorereds@gmail.com>
 Description: Connect to QPX flights API and download results into R
+License: Apache License 2.0
 LazyData: TRUE

@@ -23,7 +23,7 @@ QPX(apikey, origin, destination, date, oneway = TRUE, formatted = TRUE)
 Function that calls the QPX API and returns the resulting flights
 }
 \examples{
-resp <- QPX(apikey = "yourapikey", origin = "PSA", destination = "LON", date = Sys.Date() + 1)
-resp <- QPX(apikey = "yourapikey", origin = "PSA", destination = "LON", date = c(Sys.Date() + 1, Sys.Date() + 7), oneway = FALSE)
+resp <- QPX(apikey = 'yourapikey', origin = 'PSA', destination = 'LON', date = Sys.Date() + 1)
+resp <- QPX(apikey = 'yourapikey', origin = 'PSA', destination = 'LON', date = c(Sys.Date() + 1, Sys.Date() + 7), oneway = FALSE)
 }
 
